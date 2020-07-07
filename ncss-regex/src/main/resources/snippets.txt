@@ -1,0 +1,38 @@
+//public static final String REGEX_MATCH_FILE_PATH = "(?:[a-zA-Z]\\:)\\\\([\\w-]+\\\\)*\\w([\\w-.])+"; //No String version: (?:[a-zA-Z]\:)\\([\w-]+\\)*\w([\w-.])+
+	
+//public static final String REGEX_MATCH_DIRECTORY_PATH = "(?:[a-zA-Z]\\:)\\\\([\\w-]+\\\\)*\\w([\\w-.])+"; //No String version: (?:[a-zA-Z]\:)\\([\w-]+\\)*\w([\w-.])+
+
+
+//			List<File> filesInFolder = Files.walk(Paths.get("/path/to/folder"))
+//                    .filter(Files::isRegularFile)
+//                    .map(Path::toFile)
+//                    .collect(Collectors.toList());
+			
+			
+//			try (Stream<Path> filePathStream=Files.walk(Paths.get("/home/you/Desktop"))) {
+//			    filePathStream.forEach(filePath -> {
+//			        if (Files.isRegularFile(filePath)) {
+//			            System.out.println(filePath);
+//			        }
+//			    });
+//			}			
+			
+			//List<File> javaFileList = stream.map((path) -> new File(path.getFileName().toString())).collect(Collectors.toCollection(ArrayList::new));
+
+//					Files.lines(path).forEach(new Consumer<String>() {
+//					    public void accept(String s) {
+//							 Matcher matcher = p.matcher(s);
+//							 if(!matcher.find()) {
+//								 count.incrementAndGet();
+//							 }
+//					    }
+//					});
+
+
+			
+//			Map<String, AtomicInteger> fileLinesCountMap = stream.collect(Collectors.toMap(Path :: getId, Student :: getName
+//                                           , (oldValue, newValue) -> oldValue,LinkedHashMap::new))
+			
+//			try (Stream<String> stream = Files.lines(file.toPath())) {
+//			    stream.forEach(System.out::println);
+//			}			
